@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介ページ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 1段目: 基礎情報 -->
+        <div class="row row-base">
+            <section class="block base-info reveal">
+                <h2>基礎情報</h2>
+                <div class="base-info-flex">
+                    <div class="profile-icon-area">
+                        <img src="https://placehold.jp/120x120.png?text=Icon" alt="顔写真またはSNSアイコン" class="profile-icon">
+                    </div>
+                    <dl>
+                        <dt>ハンドルネーム</dt>
+                        <dd>YamadaTaro</dd>
+                        <dt>出身地</dt>
+                        <dd>東京都</dd>
+                        <dt>所属</dt>
+                        <dd>株式会社サンプル</dd>
+                    </dl>
+                </div>
+            </section>
+        </div>
+        <!-- 2段目: 職業・好きな食べ物・好きな音楽 -->
+        <div class="row row-triple">
+            <section class="block reveal triple-block">
+                <h2>職業</h2>
+                <p class="job-title">Webエンジニア</p>
+                <p class="job-desc">
+                    主にフロントエンド開発を担当し、ユーザー体験を重視したWebアプリケーションの設計・実装を行っています。
+                </p>
+            </section>
+            <section class="block reveal triple-block">
+                <h2>好きな食べ物</h2>
+                <div class="food-block food-block-vertical">
+                    <p class="food-name">寿司</p>
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="寿司" class="food-img food-img-large food-img-4x3">
+                    <p class="food-desc">
+                        新鮮な魚介類と酢飯の組み合わせが大好きです。特にサーモンとウニが好物です。
+                    </p>
+                </div>
+            </section>
+            <section class="block reveal triple-block">
+                <h2>好きな音楽</h2>
+                <div class="music-block">
+                    <p class="music-name">Pretender / Official髭男dism</p>
+                    <p class="music-desc">
+                        メロディと歌詞が心に響き、何度も繰り返し聴いています。
+                    </p>
+                    <div class="music-video">
+                        <iframe width="100%" height="180" src="https://www.youtube.com/embed/TQ8WlA2GXbk" title="Pretender / Official髭男dism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- 3段目: 趣味1・趣味2 -->
+        <div class="row row-double">
+            <section class="block hobby-block reveal double-block">
+                <h2>趣味1：プログラミング</h2>
+                <div class="hobby-content">
+                    <img src="https://placehold.jp/150x200.png?text=Programming" alt="プログラミング" class="hobby-img">
+                    <p>
+                        新しい技術やフレームワークを学ぶのが好きで、休日もよく個人開発をしています。
+                    </p>
+                </div>
+            </section>
+            <section class="block hobby-block reveal double-block">
+                <h2>趣味2：旅行</h2>
+                <div class="hobby-content">
+                    <img src="https://placehold.jp/150x200.png?text=Travel" alt="旅行" class="hobby-img">
+                    <p>
+                        国内外問わず様々な場所を訪れるのが好きです。写真を撮るのも楽しみの一つです。
+                    </p>
+                </div>
+            </section>
+        </div>
+        <!-- SNSブロック（最下段） -->
+        <section class="block sns-block reveal">
+            <h2>SNS</h2>
+            <div class="sns-links">
+                <a href="https://twitter.com/" target="_blank" class="sns-link twitter" aria-label="Twitter">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter" />
+                    Twitter
+                </a>
+                <a href="https://note.com/" target="_blank" class="sns-link note" aria-label="note">
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/note.svg" alt="note" />
+                    note
+                </a>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
