@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #2980f2 0%, #6dd5fa 100%);
+    background: url('img/illustAC_幾何学模様12.jpg') center center/cover no-repeat fixed;
     margin: 0;
     padding: 0;
     min-height: 100vh;
